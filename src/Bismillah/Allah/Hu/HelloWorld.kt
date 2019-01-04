@@ -1,5 +1,7 @@
 package Bismillah.Allah.Hu
 
+typealias  Empol = Set<Empolyee>
+
 fun main(args: Array<String>) {
 
     var number: Int
@@ -14,6 +16,7 @@ fun main(args: Array<String>) {
 
     val employee = Empolyee("first",10)
 
+    val myEmp : Empol
 
     val empolyee2 : Empolyee;
     val number2 = 100
